@@ -6,6 +6,9 @@
 
 const int SIZE = 256;
 const int RGB = 3;
+const int R = 0;
+const int G = 1;
+const int B = 2;
 // Note: the read-write functions return 0 on success, 1 on error.
 
 // USE THESE FOR PR4
@@ -38,3 +41,5 @@ int writeRGBBMP(const char filename[], uint8_t ***outputImage,int height,int wid
 
 
 #endif
+
+// clang++ draw.cpp drawing.cpp bmplib.cpp -o draw
