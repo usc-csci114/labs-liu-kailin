@@ -12,3 +12,5 @@ int main() {
 	save("task1.png");
 	return 0;
 }
+
+//clang++ -std=c++17 -I/opt/homebrew/include/ -L /opt/homebrew/lib -l matplot bugs-task2-fixed.cpp -o task2 -g
