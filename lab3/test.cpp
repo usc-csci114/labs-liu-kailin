@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
-#include "ArrayList.h"
+//#include "ArrayList.h"
+#include "LinkedList.h"
 
 using namespace std;
 
@@ -19,7 +20,7 @@ void printList(List<T>& list)
 
 int main(int argc, char* argv[])
 {
-	ArrayList<int> list;
+	LinkedList<int> list;
 	//or LinkedList<int> list;
 	//this is an example of inheritance. We can update our code
 	//to use a different list by changing one line of code.
@@ -46,3 +47,5 @@ int main(int argc, char* argv[])
 	
 	printList<int>(list);
 }
+
+// clang++ -Wall -std=c++11 test.cpp -o test -g
